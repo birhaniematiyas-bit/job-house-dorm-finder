@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job & Worker Agency - Ethiopia</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        button {
+            padding: 12px 25px;
+            margin: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+
+    <script>
+        function findjobs() {
+            console.log("User selected: Find Jobs");
+            console.log("Loading job listings...");
+        }
+
+        function postJobs() {
+            console.log("User selected: Post Jobs");
+            console.log("Redirecting to job posting form...");
+        }
+
+        function findWorkers() {
+            console.log("User selected: Find Workers");
+            console.log("Searching for available workers...");
+        }
+
+        function registerWorker() {
+            console.log("User selected: Register as Worker");
+            console.log("Opening worker registration form...");
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Hello, World!</h1>
+    <p>My first JavaScript code</p>
+    <p><b>Job, House, Dorm Finder — Connecting People in Ethiopia</b></p>
+
+    <h3>Find:</h3>
+    <p>Jobs, Workers, Houses for sale, Rooms for rent</p>
+
+    <!-- THESE ARE THE ACTIVE BUTTONS -->
+    <button onclick="findjobs()">Find Jobs</button>
+    <button onclick="postJobs()">Post Jobs</button>
+    <button onclick="findWorkers()">Find Workers</button>
+    <button onclick="registerWorker()">Register as Worker</button>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job, House & Dorm Finder - Ethiopia</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        button {
+            padding: 12px 25px;
+            margin: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+
+    <script>
+        // JOBS & WORKERS
+        function findjobs() {
+            console.log("User selected: Find Jobs");
+            console.log("Loading job listings...");
+        }
+
+        function postJobs() {
+            console.log("User selected: Post Jobs");
+            console.log("Redirecting to job posting form...");
+        }
+
+        function findWorkers() {
+            console.log("User selected: Find Workers");
+            console.log("Searching for available workers...");
+        }
+
+        function registerWorker() {
+            console.log("User selected: Register as Worker");
+            console.log("Opening worker registration form...");
+        }
+
+        // HOUSES
+        function findHouses() {
+            console.log("User selected: Find Houses for Sale");
+            console.log("Loading available houses...");
+        }
+
+        function postHouse() {
+            console.log("User selected: Post House for Sale");
+            console.log("Opening house posting form...");
+        }
+
+        // DORMS / ROOMS
+        function findDorms() {
+            console.log("User selected: Find Dorms / Rooms for Rent");
+            console.log("Loading room and dorm listings...");
+        }
+
+        function postDorm() {
+            console.log("User selected: Post Dorm / Room Listing");
+            console.log("Opening dorm posting form...");
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Hello, World!</h1>
+    <p>My first JavaScript project</p>
+    <p><b>Job, House, and Dorm Finder — Connecting People in Ethiopia</b></p>
+
+    <h3>Find or Post:</h3>
+
+    <!-- JOB BUTTONS -->
+    <button onclick="findjobs()">Find Jobs</button>
+    <button onclick="postJobs()">Post Jobs</button>
+    <button onclick="findWorkers()">Find Workers</button>
+    <button onclick="registerWorker()">Register as Worker</button>
+
+    <br><br>
+
+    <!-- HOUSE BUTTONS -->
+    <button onclick="findHouses()">Find Houses for Sale</button>
+    <button onclick="postHouse()">Post House for Sale</button>
+
+    <br><br>
+
+    <!-- DORM BUTTONS -->
+    <button onclick="findDorms()">Find Dorms / Rooms for Rent</button>
+    <button onclick="postDorm()">Post Dorm / Room for Rent</button>
+
+</body>
+</html>
